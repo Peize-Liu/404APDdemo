@@ -1,5 +1,13 @@
 # 404APDdemo
 404 auto pilot drone demo
+文件层次分为
+* Algorithm: includes Algorithm related to the projects(SLAM \ Quarternion ) 
+* Book: includes books and knowledge that are used in the projects. I will     write referrence at every fuction realization.
+* Hardware_design: fly control board design and other PCB used in the project
+* Hardware_design_doc : documents of chips which used in the PCB
+* Software: includes fly control codes and SLAM codes; the codes realization.
+
+I will mainly use english in 404APDdemo which from my point of view forces me to adpat future reaserch work enviroments and work flow and to some extends, practice and be familiar with the academic terms.
 
 
 ## INTRODUCTION
@@ -29,6 +37,7 @@
 
 ##### 需求分析
 	1. 双冗余IMU
+		IMU 选择
 	2. 4路PWM-》电调
 	3. 一路PPM《-接收机 
 	4. 一路调试串口
@@ -48,6 +57,8 @@
 图像平台需要转接板：
 
 1. 双目/单目摄像头
+    // 2021 2.6
+    首先选用港科大的单目SLAM项目，结合IMU构建地图
 2. GPS/？
 
 
