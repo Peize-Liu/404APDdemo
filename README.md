@@ -22,7 +22,8 @@ I will mainly use english in 404APDdemo which from my point of view forces me to
 ### 硬件设计
 
 #### 分电板设计
-
+1. 20v 转 5v TPS5331x
+2. 5v-3v飞控　1117
 ##### 需求分析
 
 1. 为四个最大放电电流为30A的电调供电
@@ -31,7 +32,13 @@ I will mainly use english in 404APDdemo which from my point of view forces me to
 
 ##### 硬件选择
 
-1. 电源管理芯片
+1. MCU设计一路ＡＤＣ采电池电压;需要降压，或者每一个电芯直接采样
+
+分电板和控制板采用一个连接座连接;连接座需要拥有线路：
+	1.ppm
+	2.4-5路adc
+	3.4路pwm
+
 
 #### 飞行控制版设计
 h750vbt6 // 
@@ -44,6 +51,7 @@ h750vbt6 //
 		hmc5883? // spl06 // ist8310(0)
 
 	2. 4路PWM-》电调
+
 	3. 一路PPM《-接收机 
 	4. 一路调试串口
 	5. 稀疏光流模块
