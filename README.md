@@ -34,10 +34,15 @@ I will mainly use english in 404APDdemo which from my point of view forces me to
 1. 电源管理芯片
 
 #### 飞行控制版设计
+h750vbt6 // 
 
 ##### 需求分析
 	1. 双冗余IMU
 		IMU 选择
+		icm20602(0) // 6轴
+		icm20649　／／bmi088(0)
+		hmc5883? // spl06 // ist8310(0)
+
 	2. 4路PWM-》电调
 	3. 一路PPM《-接收机 
 	4. 一路调试串口
@@ -45,8 +50,9 @@ I will mainly use english in 404APDdemo which from my point of view forces me to
 	6. 激光测距模块
 	7. 一路串口GPS
 	8. 一路JTAG
+	9. 晶振
 
-##### 硬件选择
+##### 硬件选择h750vbt6
 
 1. 
 
