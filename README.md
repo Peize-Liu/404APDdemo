@@ -8,7 +8,7 @@
 * Hardware_design_doc : documents of chips which are used in the PCB design 
 * Software: includes fly control codes and SLAM codes; the codes realization.
 
-I will mainly use english in 404APDdemo which from my point of view forces me to adpat future reaserch work enviroments and work flow and to some extends, practice and be familiar with the academic terms.
+I will mainly use english in 404APDdemo which from my point of view forces me to adpat future reaserch work enviroments and work flow and to some extends,is an interesting project to practice and be familiar with the academic terms.
 
 
 ## INTRODUCTION
