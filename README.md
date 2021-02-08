@@ -1,10 +1,11 @@
 # 404APDdemo
 404 auto pilot drone demo
+ 
 文件层次分为
 * Algorithm: includes Algorithm related to the projects(SLAM \ Quarternion ) 
-* Book: includes books and knowledge that are used in the projects. I will     write referrence at every fuction realization.
-* Hardware_design: fly control board design and other PCB used in the project
-* Hardware_design_doc : documents of chips which used in the PCB
+* Book: includes books and files of related knowledge that are used in the projects. I will     write referrence at every fuction realization.
+* Hardware_design: fly control board design and other PCB used in the project.
+* Hardware_design_doc : documents of chips which are used in the PCB design 
 * Software: includes fly control codes and SLAM codes; the codes realization.
 
 I will mainly use english in 404APDdemo which from my point of view forces me to adpat future reaserch work enviroments and work flow and to some extends, practice and be familiar with the academic terms.
