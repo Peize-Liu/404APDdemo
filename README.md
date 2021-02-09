@@ -3,12 +3,14 @@
  
 文件层次分为
 * Algorithm: includes Algorithm related to the projects(SLAM \ Quarternion ) 
-* Book: includes books and files of related knowledge that are used in the projects. I will     write referrence at every fuction realization.
+* Book: includes books and files of related knowledge that are used in the projects. I will     write reference at every fuction realization.
 * Hardware_design: fly control board design and other PCB used in the project.
 * Hardware_design_doc : documents of chips which are used in the PCB design 
 * Software: includes fly control codes and SLAM codes; the codes realization.
 
 I will mainly use english in 404APDdemo which from my point of view forces me to adpat future reaserch work enviroments and work flow and to some extends,is an interesting project to practice and be familiar with the academic terms.
+
+The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable explaination and declaration about the project is inevitable.  
 
 
 ## INTRODUCTION
@@ -25,6 +27,7 @@ I will mainly use english in 404APDdemo which from my point of view forces me to
 #### 分电板设计
 1. 20v 转 5v TPS5331x
 2. 5v-3v飞控　1117
+电池直接供电４个电调，电调电路上需要做滤波
 ##### 需求分析
 
 1. 为四个最大放电电流为30A的电调供电
@@ -111,6 +114,7 @@ h750vbt6 //
 ### EKF
 
 
+test
 
 
 
