@@ -21,13 +21,17 @@ The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable e
 无人机能够高速穿越复杂环境; 通过GPS和IMU模块完成自动返航和目标点规划，飞行路径规划。
 
 
+## How to start
+
+
 
 ### 硬件设计
 
 #### 分电板设计
-1. 20v 转 5v TPS5331x
-2. 5v-3v飞控　1117
+1. 20v 转 5v TPS5430DA
+2. 5v-3v飞控　1117 33
 电池直接供电４个电调，电调电路上需要做滤波
+3. 接收机插座，ppm连接供电板
 ##### 需求分析
 
 1. 为四个最大放电电流为30A的电调供电
@@ -40,8 +44,8 @@ The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable e
 
 分电板和控制板采用一个连接座连接;连接座需要拥有线路：
 	1.ppm
-	2.4-5路adc
-	3.4路pwm
+	2.4路pwm
+	3.5v 和 3.3v 供电
 
 
 #### 飞行控制版设计
@@ -114,7 +118,6 @@ h750vbt6 //
 ### EKF
 
 
-test
 
 
 
