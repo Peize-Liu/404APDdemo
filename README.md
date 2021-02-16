@@ -40,8 +40,10 @@ The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable e
 
 分电板和控制板采用一个连接座连接;连接座需要拥有线路：
 	1.ppm
-	2.4-5路adc
+	2.4-5路adc //取消这个设计 2021.2.16
 	3.4路pwm
+	4.pmm移到电源板上
+	5.接收机移到电源板上
 
 
 #### 飞行控制版设计
