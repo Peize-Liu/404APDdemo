@@ -1,0 +1,51 @@
+Source,/Users/jay_liu/404APD_demo/Hardware_design/KICAD_project/batt_board/batt_board.sch
+Kicad Rev,Eeschema (5.1.8-0-10_14)
+Generated Date,2021 February 16, Tuesday 17:28:31
+
+Title,power_suplly
+Company,Not Set
+Revision,0.1
+Date Issue,2021-02-14
+
+Reference,Value,Library,Library Ref
+J5,Conn_01x02,Connector_Generic,Conn_01x02
+J3,Conn_01x02,Connector_Generic,Conn_01x02
+J2,Conn_01x02,Connector_Generic,Conn_01x02
+C2,0.01uF,Device,C_Small
+C1,10uF,Device,C_Small
+L1,10uH,Device,L_Small
+D6,B340A,Device,D_Schottky_ALT
+R6,10K,Device,R_Small_US
+Receiver1,Conn_01x04,Connector_Generic,Conn_01x04
+D1,LED_Small,Device,LED_Small
+D2,LED_Small,Device,LED_Small
+D3,LED_Small,Device,LED_Small
+D4,LED_Small,Device,LED_Small
+R1,10K,Device,R_Small_US
+R2,10K,Device,R_Small_US
+R3,10K,Device,R_Small_US
+R4,10K,Device,R_Small_US
+R5,4.7K,Device,R_Small_US
+U2,AMS1117-3.3,Regulator_Linear,AMS1117-3.3
+D7,LED_Small,Device,LED_Small
+R8,4.7K,Device,R_Small_US
+CH1,Conn_01x02,Connector_Generic,Conn_01x02
+CH2,Conn_01x02,Connector_Generic,Conn_01x02
+CH3,Conn_01x02,Connector_Generic,Conn_01x02
+CH4,Conn_01x02,Connector_Generic,Conn_01x02
+D5,LED_Small,Device,LED_Small
+conn2upper1,Conn_02x05_Counter_Clockwise,Connector_Generic,Conn_02x05_Counter_Clockwise
+R9,22,Device,R_Small_US
+R10,22,Device,R_Small_US
+R11,22,Device,R_Small_US
+R12,22,Device,R_Small_US
+R13,22,Device,R_Small_US
+C3,220uF,Device,CP1_Small
+U1,TPS5430DDA,Regulator_Switching,TPS5430DDA
+J11,battery_plug_in,Connector,Conn_01x02_Male
+R7,3.24K,Device,R_Small_US
+H1,MountingHole_Pad,Mechanical,MountingHole_Pad
+H2,MountingHole_Pad,Mechanical,MountingHole_Pad
+H3,MountingHole_Pad,Mechanical,MountingHole_Pad
+H4,MountingHole_Pad,Mechanical,MountingHole_Pad
+J4,Conn_01x02,Connector_Generic,Conn_01x02
