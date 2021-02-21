@@ -610,8 +610,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 2700 8700 2700
 Wire Wire Line
-	8200 2800 8200 3050
-Wire Wire Line
 	8200 2800 8700 2800
 Wire Wire Line
 	8300 3350 8300 3250
@@ -646,28 +644,6 @@ F 3 "~" H 8200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R11
-U 1 1 60410FC3
-P 8300 3150
-F 0 "R11" H 8368 3196 50  0000 L CNN
-F 1 "22" H 8368 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8300 3150 50  0001 C CNN
-F 3 "~" H 8300 3150 50  0001 C CNN
-	1    8300 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R12
-U 1 1 604142BD
-P 8400 3150
-F 0 "R12" H 8468 3196 50  0000 L CNN
-F 1 "22" H 8468 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8400 3150 50  0001 C CNN
-F 3 "~" H 8400 3150 50  0001 C CNN
-	1    8400 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small_US R13
 U 1 1 60417C9B
 P 8400 3950
@@ -694,8 +670,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 3250 8200 3350
 Wire Wire Line
-	8300 3050 8300 2900
-Wire Wire Line
 	8400 3250 8400 3350
 Wire Wire Line
 	2500 1550 2750 1550
@@ -712,7 +686,7 @@ U 1 1 602D8C2F
 P 3100 2100
 F 0 "C3" H 3191 2146 50  0000 L CNN
 F 1 "220uF" H 3191 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3100 2100 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 3100 2100 50  0001 C CNN
 F 3 "~" H 3100 2100 50  0001 C CNN
 	1    3100 2100
 	1    0    0    -1  
@@ -1213,4 +1187,30 @@ Wire Wire Line
 Wire Wire Line
 	1650 2150 950  2150
 Connection ~ 1650 2150
+Wire Wire Line
+	8300 3050 8300 2900
+Wire Wire Line
+	8200 2800 8200 3050
+$Comp
+L Device:R_Small_US R11
+U 1 1 60410FC3
+P 8300 3150
+F 0 "R11" H 8368 3196 50  0000 L CNN
+F 1 "22" H 8368 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8300 3150 50  0001 C CNN
+F 3 "~" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 604142BD
+P 8400 3150
+F 0 "R12" H 8468 3196 50  0000 L CNN
+F 1 "22" H 8468 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8400 3150 50  0001 C CNN
+F 3 "~" H 8400 3150 50  0001 C CNN
+	1    8400 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
