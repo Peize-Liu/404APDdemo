@@ -13,3 +13,24 @@
     电感 inductance
     电容 capacitor
     插座 socket
+2. 2021.2.21 v0.1.1 
+    update footprint 
+
+
+#### 控制板
+板上外设：
+1. TF卡座
+2. QSPIFLASH
+3. OLED 屏幕
+5. JTAG 烧录座
+6. CH340- TypeC 串口转TpyeC 
+7. ICM-20602 
+8. BMI160
+9. IST8310 
+10. BLE print 
+
+
+2021.2.21 v0.1
+    PE2-PE6 ： LED 测试点
+    PA0 - PA3 TIM2 
+

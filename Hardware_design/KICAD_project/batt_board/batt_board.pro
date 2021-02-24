@@ -1,4 +1,4 @@
-update=2021 February 18, Thursday 20:52:21
+update=2021 February 22, Monday 23:23:53
 version=1
 last_client=kicad
 [general]
@@ -255,6 +255,17 @@ dPairViaGap=0.25
 Name=Normal
 Clearance=0.2
 TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=batt_board
+Clearance=0.2
+TrackWidth=0.8
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
