@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name H7PI-rescue)(type Legacy)(uri ${KIPRJMOD}/H7PI-rescue.lib)(options "")(descr ""))
+)
