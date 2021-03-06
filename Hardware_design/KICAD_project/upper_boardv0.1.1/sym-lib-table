@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name upper_board)(type Legacy)(uri ${KIPRJMOD}/upper_board.lib)(options "")(descr ""))
+  (lib (name upper_board_qrescue)(type Legacy)(uri ${KIPRJMOD}/upper_board_qrescue.lib)(options "")(descr ""))
+  (lib (name upper_borad_s-cache)(type Legacy)(uri ${KIPRJMOD}/upper_borad_s-cache.lib)(options "")(descr ""))
+)
