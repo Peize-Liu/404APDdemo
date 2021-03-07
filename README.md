@@ -21,6 +21,8 @@ The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable e
 无人机能够高速穿越复杂环境; 通过GPS和IMU模块完成自动返航和目标点规划，飞行路径规划。
 
 
+
+
 ## How to start
 
 
@@ -38,18 +40,6 @@ The project is conjured up by Morty-Liu Evan-Guo and Nick-Zheng and unsuitable e
 2. 为飞行控制板供电5V 3A
 3. 为飞行主机供电5V3A // 后期会变为12V供电
 
-##### 硬件选择
-
-1. MCU设计一路ＡＤＣ采电池电压;需要降压，或者每一个电芯直接采样
-
-分电板和控制板采用一个连接座连接;连接座需要拥有线路：
-	1.ppm
-	2.4-5路adc //取消这个设计 2021.2.16
-	3.4路pwm
-	4.pmm移到电源板上
-	5.接收机移到电源板上
-
-
 #### 飞行控制版设计
 h750vbt6 // 
 
@@ -61,7 +51,6 @@ h750vbt6 //
 		hmc5883? // spl06 // ist8310(0)
 
 	2. 4路PWM-》电调
-
 	3. 一路PPM《-接收机 
 	4. 一路调试串口
 	5. 稀疏光流模块
@@ -70,9 +59,7 @@ h750vbt6 //
 	8. 一路JTAG
 	9. 晶振
 
-##### 硬件选择h750vbt6
 
-1. 
 
 #### 高级图形计算平台选择
 
@@ -87,13 +74,7 @@ h750vbt6 //
 
 
 
-#### 飞行硬件选择
-
-##### 动力
-
-##### 
-
-### 软件设计
+#### 软件设计
 
 #### 飞控平台设计
 
